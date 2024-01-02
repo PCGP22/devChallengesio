@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Prata&family=Sora:wght@400;500;600;700&display=swap');
+
+:root{
+    --purple_text: #883AE1;
+    --purple_background: #E6D6FC;
+    --line: #E5EAF0;
+    --body_background: #FAFAF9;
+    --card_background: #FFFFFF;
+    --text_title: #20293A;    
+    --text_body: #6C727F;
+
+    --card_width: 368px;
+
+
+    font-family: 'Sora', sans-serif;;
+    color: var(--text_title);
+}
+
+body{
+    background-color: var(--body_background);
+    display: grid;
+    place-content: center;
+    min-height: 100svh;
+}
+
+.card{
+    background-color: var(--card_background);
+    padding: 16px;
+    max-width: var(--card_width);
+    border-radius: 16px;
+    box-shadow: var(--text_body) 2px 2px 8px;
+}
+
+.card img{
+    width: 100%;
+}
